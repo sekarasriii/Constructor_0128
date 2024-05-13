@@ -20,5 +20,8 @@ angka::angka(int i) {
 }
 
 angka::~angka() {
-
+	cout << endl;
+	cetakData();
+	delete[]arr;
+	cout << "Alamat Array Sudah Dilepaskan" << endl;
 }
