@@ -40,5 +40,6 @@ void angka::isiData() {
 }
 
 int main() {
+	angka belajarcpp(3);
 
 }
